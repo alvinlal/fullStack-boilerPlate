@@ -1,0 +1,10 @@
+{
+    "presets": ["@babel/env", "@babel/react", "@babel/typescript"],
+    "plugins": ["@babel/proposal-class-properties", "@babel/proposal-object-rest-spread"]
+}
+
+//@babel/preset-env is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller
+//@babel/preset-react is a package that contains some babel plugins that will convert our jsx into react elements,
+//@babel/typescript is a  plugin that adds support for the syntax used by the TypeScript programming language. However, this plugin does not add the ability to type-check the JavaScript passed to it. For that, you will need to install and set up TypeScript
+//@babel/proposal-class-properties,This plugin transforms static class properties as well as properties declared with the property initializer syntax.
+//@babel/proposal-object-rest-spread,This plugin is used to use spread operator inside objects

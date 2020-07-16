@@ -7,6 +7,9 @@ module.exports = {
             jsx: true,
         },
     },
+    env: {
+        browser: true,
+    },
     settings: {
         react: {
             version: 'detect',
@@ -20,6 +23,7 @@ module.exports = {
         'plugin:react-hooks/recommended',
         'plugin:jsx-a11y/recommended',
         'plugin:import/typescript',
+        'plugin:compat/recommended',
     ],
     rules: {
         'prettier/prettier': 1,

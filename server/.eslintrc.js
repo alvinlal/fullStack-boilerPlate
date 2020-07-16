@@ -3,11 +3,10 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 2020,
         sourceType: 'module',
-        ecmaFeatures: {
-            jsx: true,
-        },
     },
-
+    env: {
+        node: true,
+    },
     extends: [
         'plugin:@typescript-eslint/recommended', //
         'prettier/@typescript-eslint',

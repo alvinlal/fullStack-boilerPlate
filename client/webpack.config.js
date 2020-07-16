@@ -42,6 +42,9 @@ module.exports = {
             colors: true,
             entrypoints: false,
         },
+        proxy: {
+            '/graphql': 'http://localhost:4000/graphql',
+        },
     },
     plugins: [
         new HtmlWebpackPlugin({

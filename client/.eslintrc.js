@@ -22,7 +22,7 @@ module.exports = {
         'plugin:import/typescript',
     ],
     rules: {
-        '@typescript-eslint/no-var-requires': 0, //allows to use commonJs import ('require')
         'prettier/prettier': 1,
+        '@typescript-eslint/no-var-requires': 0, //allows to use commonJs import ('require')
     },
 };
